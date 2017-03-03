@@ -1,0 +1,102 @@
+include head
+
+html
+    head
+        +title('choice form 巧思科技')
+    body
+        .main-wrapper
+            .header
+                h1 凯迪拉克·四川
+                h1 销售合同
+                img(src="data:image/png;base64,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")
+            .content
+                table
+                    tr.half
+                        td 供方:
+                            span 四川新东信汽车服务有限公司
+                        td 合同编号:
+                            span api[009912]
+                    tr
+                        td(colspan='2')  需方:
+                            span api[客户姓名]
+                    tr
+                        td(colspan='2')  需方通讯地址:
+                            span api[上海市徐汇区龙华中路600号绿地中心]
+                    tr.half
+                        td 身份证号码：
+                            span api[310999777111xxxx]
+                        td 电话
+                            span api[13922229986]
+
+                ul
+                    li 一、合同标的主要内容
+                        ul.sub-list
+                            li 车辆信息：车型 配置 内部颜色 外部颜色
+                            li 选装：
+                            li 精品配件：
+                            li 保险：
+                            li 贷款：
+                            li 合计人名币金额（大写）：
+                    li 二、手续：符合中国海关正规进口汽车手续或上汽通用汽车有限公司正规手续。
+                    li 三、交货地点：
+                        span.underline api[交货地点]
+                    li 四、付款方式：按照以下第   项约定方式进行。
+                        ul.sub-list
+                            li 需放在签订合同当日支付供方全部车款人民币￥
+                                span.underline 170000
+                                | 元
+                            li 需放在签订合同时支付人民币￥
+                                span.underline 70000
+                                | 作为定金，验收车辆后即可支付供方剩余车款人民币￥
+                                span.underline 100000
+                                | 元。
+                    li 五、供需方责任：
+                        ul.sub-list
+                            li 供方在需方购买车辆后向需方提供车辆相关手续。
+                            li 需放在购车时应认真检查供方所提供的车辆证件，手续是否齐全。
+                            li 需放在购车时应对所购车的功能及外观进行认真检查，确认。
+                            li 汽车在购买后，售后维修服务由汽车所属品牌特约维修站负责解决，供方可协助处理。
+                    li 六、车辆验收：合同车辆执行上汽通用汽车有限公司技术条件，需方应当场对合同车辆进行检查、验收并签字确认。
+                    li 七、售后服务：遵循上汽通用汽车有限公司之售后服务规定。
+                    li 八、交车时间预计：
+                        span.underline 2017
+                        | 年
+                        span.underline 12
+                        | 月
+                        span.underline 3
+                        | 日
+                        | 1.不可抗力及不可预见因素：由于罢工、自然灾害、战争等不可抗力导致延期交车，供方免除责任。2.因为中国政府机构（如海关、商检等）某些行为造成供方不能交货或者延迟交货，供方免除责任。3.需方所订车辆在运输过程中因各种原因（包括道路状况，交通肇事等）造成延期交车的，供方不承担任何责任。
+                    li 九、需方向供方订购车辆后，供方在到货后向需方通讯地址发出书面提车通知或通过电话通知，需方在收到通知后须在3个工作日内向供方付清全部车款，否则供方有权处理车辆，并不返还定金。
+                    li 十、为了保护购车人利益，以下情况，提车人需出示相关委托提车证明手续，方能提车：
+                        ul.sub-list
+                            li 单位购车，需出具单位加盖公章后的提车委托书及提车人身份证复印件；
+                            li 私人购车（车辆发票单位为私人），但车款由所属公司以支票形式支付的，公司需出具情况说明，并加盖公章；
+                            li 私人购车（同上），提车人与合同需方不一致时，须出具有需方签名的提车委托书及需方提车人各自的身份证复印件；
+                    li 十一、本合同一式贰份，供需双方各执一份，经双方签字/盖章后生效，传真件具有同等法律效力未尽事宜双方协商解决，双方履行协议过程中发生争议协商未果的，任何一方应向供方所在地人民法院诉讼解决。上诉条款经供需双方平等协商一致，自愿签订本汽车购销合同，以资信守。
+
+
+                table
+                    tr.half
+                        td 供方:
+                            span 四川新东信汽车服务有限公司
+                        td 需方:
+                            span api[客户姓名]
+                    tr.half
+                        td 授权代表:
+                            span api[授权代表]
+                        td 授权代表:
+                            span api[授权代表]
+                    tr.half
+                        td (盖章):
+                        td (盖章):
+                    tr 开户行：工行成都高新西部园区支行黄忠大道分理处
+                    tr 账号：4402 2544 1900 0006 651
+        p.page-footer 品鉴中心：成都市蜀西路165号   邮编：610036   TEL：（86 28）68119999   FAX：（86 28）68111929
+
+
+
+
+
+
+
+

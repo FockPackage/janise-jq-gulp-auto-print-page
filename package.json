@@ -1,0 +1,28 @@
+{
+  "name": "auto-print-page",
+  "version": "1.0.0",
+  "description": "nodetest",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd dist/ && http-server -p 5210 && gulp default"
+
+  },
+  "author": "janisesheng",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-declare": "^0.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "gulp-wrap": "^0.13.0"
+  }
+}
